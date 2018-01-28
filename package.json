@@ -14,7 +14,6 @@
         "onLanguage:csharp"
     ],
     "main": "./out/extension",
-
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
@@ -27,5 +26,8 @@
         "vscode": "^1.1.6",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "vscode-languageclient": "^3.5.0"
     }
 }
