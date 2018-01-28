@@ -1,0 +1,1 @@
+export const omnisharpExtensionid = `ms-vscode.csharp`;
